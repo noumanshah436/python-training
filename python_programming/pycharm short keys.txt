@@ -1,0 +1,16 @@
+format document (correct indenting)     -----------------------             ctrl + alt + L         
+
+move line up down                                      alt +  shift +  up/down
+
+go to defination of (for both user or built in functions)   ----------      Ctrl + enter   (  on any function ) 
+
+
+
+
+mwnu windows -> editor tabs -> split vertically
+
+pip is a package-management system written in Python used to install and manage software packages (Modules).
+ It connects to an online repository of public and paid-for private packages, called the Python Package Index.
+ Most distributions of Python come with pip preinstalled.
+
+PIP is a package manager for Python packages, or modules if you like. Note: If you have Python version 3.4 or later, PIP is included by default.

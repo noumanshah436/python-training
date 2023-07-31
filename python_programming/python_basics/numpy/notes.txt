@@ -1,0 +1,5 @@
+https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp
+
+
+pip install matplotlib
+pip install numpy

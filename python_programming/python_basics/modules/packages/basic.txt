@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=vM3ScLNTGoQ
+
+
+package is simply a directory which contains  modules(python files) and other sub_packages.
+
+module = a file containing python code. ( i.e python file is also called a module )
+It May contain function , classes etc.
+Used with modular programming, which is to separate a program into parts
+
+# if we import a module, the code inside this module will execute automatically
+# ( i.e.  consider that we have run this file separately)
+
+***********************
+
+__init__.py file is not needed from python version 3.3 and above !!
+
+All folders from python version 3.3 and above are considered a namespace package.
+All folders from python 3.3 and above having a __init__.py file are considers a standard package.
+
+
+-> namespace packages with same name can be used and it's imorted modules(files) will work fine .
+
+-> for standard packages  , if we have same name packages , we can only import modules from standard package having __init__.py file, 
+   If we try to import module with same name package and it do not have __init__.py file  , it  cause error

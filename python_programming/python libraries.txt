@@ -1,0 +1,11 @@
+request
+TKinter          for GUI
+SQLAlchemy       for database (use with flask)
+Numpy            for computation (functions , algebra)
+Matplotlib       graphs plotting (pychart, gant chart)
+PyWin32          for using API's  (wndows win32 api)
+NLTK             for  natural language processing  like google home , alexa
+Scikit Learn     for machine learning  
+OPenCV         	 for image processing (like photoshop and filters)
+Flask            fow web development
+

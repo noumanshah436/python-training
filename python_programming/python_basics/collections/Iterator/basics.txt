@@ -1,0 +1,19 @@
+Iterables are objects that can be placed inside a loop and are capable of returning one variable at a time.
+In simple terms, we can say that iterables are objects capable of iteration.
+Examples of iterable include list, string, tuple, etc.
+
+for c in a:
+  print (a)
+#Here a is an iterable.
+
+
+Now, moving on to iterator. An iterator can be defined as an object that does iterations on iterable.
+Meaning that it will move from character to character doing iteration. Every iterable, either it is a
+string or tuple has a built-in method __iter__() that creates an object when called. The object moves
+from character to character of iterable using the __next__() method. The __next__() method is, what's
+really behind the working of the loop.
+
+The phenomenon that occurs by the combination of the two concepts defined above is known as iteration.
+We can define iteration as the repetition of the same commands again and again.
+
+ ***********************************************************************

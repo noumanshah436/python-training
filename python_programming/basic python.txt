@@ -1,0 +1,16 @@
+
+list1 = [5, 7, 3]
+print(15 not in list1)
+if 15 not in list1:
+     print("No its not in the list")
+
+*************************************************************
+input key value and add it to dic
+
+d = {}
+key = "nomi"
+value = "1998"
+d[key] = value
+print(d)
+
+***********************************************************

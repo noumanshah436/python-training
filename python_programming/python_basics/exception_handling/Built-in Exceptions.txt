@@ -1,0 +1,652 @@
+StopIteration -  built-in function next() or iterator’s __next__()  raise krte han jb iterable ma koi item na bacha ho
+KeyError -  jb dictionary ma desired key na miley
+
+
+Type error --> jab variable ka type wrong hoga . e.g
+Print (sum(5+"4"))
+
+Value error-->. Jab variable ka type sahi ho lekin galat value pass ki gayi ho
+e.g
+print(int("one"))
+
+Name error: variable declaration ke pahle ki name use ho
+e.g
+print (name)
+
+
+
+NameError---yah error tb aata hai. Jb variable ka naam nhi milta hai.. Mtlb variable define nhi hota hai
+
+FileNotFoundError----yh error tb aata hai jb aap koi aise file ko open kr rhe ho jo ki.. Nhi hai aapke folder me..
+
+23
+
+
+
+EOF Error : Occurs when the input function reaches to end of the file without reading any input
+Attribute Error: when a required attribute is not there.
+
+5
+
+
+
+1.MemoryError: It comes when some command or operation run out of memory or exceeds memory limit.
+2.Keyerror: Raised when a key is not found in the dictionary.
+
+
+assert(condition) - jab condition false ho to exception raise hogi
+KeyError - when key is not found in dictionary.
+
+
+IndentationError: jab galat Indentation ho
+
+NameError: jab variable define na kiya Gaya ho
+
+
+Recursion Error: Jab maximum recursion depth reach hoti hai. When I was practicing recursions, iski shakal itni baar dekhi bhai.
+Syntax Error: Syntactical mistakes. Yeh kabhi nhi bhul payenge.
+
+
+Lookup error: mapping ke doran galat key ka use karna
+IsADirectory Error: kisi dir pr koi file ka attribute lgakr run krna
+
+
+Keyboard interrepted error - when user press any key like ctrl c or delete while program is runing.
+
+Memory error- when drive has not enough space to execute the program.
+
+2
+
+
+Ravi Pandya
+Ravi Pandya
+8 months ago
+ArithmeticError: isme different types ke errors hai like:  OverflowError, ZeroDivisionError, FloatingPointError.
+BufferError: raise me buffer related operation work nhi karte.
+
+2
+
+
+Mohit Wayde
+Mohit Wayde
+3 months ago
+PermissionError --> jab hum bina permission  ke operation perform karte hai tab PermissionError raise hota hai
+TimeoutError --> jab system function ka time khatam hota hai system level pe tab TimeoutError raise hota hai
+
+Thank you for giving us free programming knowledge
+highly appreciated
+
+
+
+Technology_yug
+Technology_yug
+5 months ago
+Sach me itne advance level ki quality teaching/matter wo bhi deshi bhasha me kahi pure YouTube /Google me khi nhi milega/wo bhi free of cost/ek true teacher/Sacha Banda/phir bhi itne km views Kyu hai, /apke is mehnat ko Dil ki gehraiyon se salaam harry Bhai/start se Dekh /write/understand and practice karte aa raha hoon/aur ab ye kh sakta Hoon ki kisi ne bhi yadi honesty me sath is Puri series ko last Tak cover Kar liya to wo ek top level Python programmer banne ka most strong foundation khud me jarur prapt Kar legs/Thanks a lot/God bless you.🙏👌🏼✌️🤗♥️
+
+
+
+༒ᗰᖇ乂Arקiτ ༒࿐❶
+༒ᗰᖇ乂Arקiτ ༒࿐❶
+2 months ago
+over flow error :- iska matla hota h too larger jo run nai ho pata h tab aata h overflowerror
+aur overflow error shrif divide ma aata
+
+1
+
+
+J SHIVA Subramanian
+J SHIVA Subramanian
+2 weeks ago
+Indentation error - Jab Tab lagana bhool jaye(the next line is not taken as part of the previous loop). Name Error - when the name is not defined or defined after the place where it is used
+
+
+
+Sheel Kumar
+Sheel Kumar
+1 month ago
+exception KeyboardInterrupt:
+Ye error tab atta he jab user program ke execution ke Doran intturupt key press kare(for ex. Control-C or Delete).
+
+exception GeneratorExit:
+Ye tab atta he jab  a generator or  corotine  band ho.
+
+
+
+Shreya Kapadia
+Shreya Kapadia
+3 weeks ago
+Key error -> jab hum dictionary me aisi key de jo exist na karti ho
+Name error -> jab variable declare na kiya ho but by mistake when we try to access it
+
+
+
+saif ali
+saif ali
+4 months ago
+ImportError- jb import statement ko module import krne me problem hota h
+KeyError- jb dictionary me wo key nai milta hai
+
+
+
+sumit chahal
+sumit chahal
+1 year ago
+key error-jab dictonery ki key ni found hoti
+name error-jab local and global name na mile(not found)
+
+1
+
+
+Multicom Life
+Multicom Life
+4 days ago (edited)
+OverflowError- ye error tab ata hay jab ap  ka arthemitic operation kah operation bohot bara ho represent karnay kah liye.
+RecursionError-  ye error tab ata hay jab ap  ka interpreter detect karay zaada recursions depth ko
+
+1
+
+
+Nouman Shah
+Nouman Shah
+1 minute ago (edited)
+StopIteration -  built-in function next() or   iterator’s __next__()     raise krte han jb iterable ma koi item na bacha ho
+KeyError -  jb dictionary ma  desired key na miley
+
+
+
+jatin kumar
+jatin kumar
+9 months ago
+1.EOF ERROR = jab koi input function read nhi kar pata or return me empty string deta h to EOF ERROR raise hota h.
+2.key error = jab kisi key value banai hui dictionary k set me na ho to key error ata hai
+
+
+
+Harsh Negi
+Harsh Negi
+7 months ago
+StopIteration() - jb koi generator ya coroutine method further items produce na kr paye iterator dwara.
+
+
+OverflowError() - jb kisi arithmetic operation (except integer) ka result out of range aa jaye
+
+
+
+Tanmay Daga
+Tanmay Daga
+9 months ago
+KeyboardInterrupt------> Jab user ctrc ya delete key press karta hai console me
+Modulenotfound---->Jab script me de gayi module python ko nahi milti
+
+
+exception LookupError
+ager kisi base class ki key or values galat di jati hai to exception  IndexError, KeyError show krega
+
+
+
+Simplifying Education
+Simplifying Education
+3 weeks ago (edited)
+KeyboardInterrupt --> jab kuch copy ya delete karte ho to.
+
+MemoryError --> jab command run 'hote, hote, hote, ., ...' computer ki memory full hojaey (isko try mat karna, time aur computer dono waste)  for eg:
+a = 1
+while True:
+    print(a)
+    a = a+1
+
+1
+
+
+Mahima Arya
+Mahima Arya
+1 month ago
+Who says that you don’t give right examples!!! You are so good at giving examples Harry.....
+
+
+
+An0nYm0uS
+An0nYm0uS
+2 years ago
+ImportError - jab interpreter ko koi imported module nhi milta hai tab ye Exception raise hota hai.
+IndentationError - jab kisi program me kahi incorrect indentation hota hai to ye Exception raise hota hai.
+
+3
+
+CodeWithHarry
+
+AKKU MUSICAL
+AKKU MUSICAL
+6 months ago
+NameError :> jab input me name galat ho jata he tab ye NameError show hota he
+
+KeyError :> jab koi value list me ny hoti tab KeyError show hota he
+
+
+
+social cinema
+social cinema
+2 weeks ago
+lookup error - jab key ya index value out of range ho
+buffer error- buffer related operations nhi chal skte
+
+
+
+Mayur Thorat
+Mayur Thorat
+6 months ago
+Awesome bhai thanxx fr vdo apki umar lambi ho👍❤️
+
+
+
+Anis Blanco
+Anis Blanco
+4 months ago
+exception KeyError:
+Raised when a  dictionary key is not found in the set of existing keys.
+
+ exception ModuleNotFoundError:
+Raised when a module can't be located.
+
+
+
+Ashwin
+Ashwin
+9 months ago
+EOF error: jub input function end of file condtion ko hit krta h
+KEY error : jub ek key found nhi ho pati kisi dictionary me
+
+
+
+
+*LookupError*. Is me keyError or IndexError aate h...
+Agr index out of bound ho  toh error aayga..
+
+a = [1,2,3]
+try:
+   print(a[3])
+except LookupError:
+
+
+GeneratorExit ...
+Ye error tab aayga jab Generator ko pura chaly bena exit krdegy
+
+
+
+Code with Govind
+Code with Govind
+7 months ago
+Buffer error - jab koi buffer related operation performed nhi ho pta to vo buffererror raise karta h
+Import error- jab koi modul import nhi ho pata h ya found nhi hota h to vo import error raise karta h
+
+
+
+AB
+AB
+6 months ago
+Name Error - jab variable globally yeah locally exists nhi krta.
+Key Error - jab dictionary me key nhi milti existing set of key me.
+Tab Error - jab code me inconsistent tab yeah space use hote hai.
+Syntax Error - jab ham code me glt syntax use krte hai
+
+
+
+suresh behera
+suresh behera
+2 years ago
+Excellent video
+
+
+CodeWithHarry
+
+45_Vijay Jha
+45_Vijay Jha
+2 months ago
+ImportError: jab import statement ko problem aata kuch load karne ke samay....
+SyntaxError: jab syntax galat ho..
+
+
+
+MD Adil
+MD Adil
+9 months ago
+exception BufferError:ya exception jab handel hota hai tab koi buffer ka operation perform nahi hota
+exception LookupError:is exception ka koi base class raise hota hai jab koi key ya index ko use carta hai mapping ya sequence ka uper tab invalid :IndexError, KeyError ko directly raise carta hai codecs.lookup().
+
+
+
+Om Damahe
+Om Damahe
+2 months ago
+# Task : Write about two built in Exception
+'''Answer: KeyError	: Ye Error tab raise hoti hai jab dictionary me key nhi milti
+
+            RuntimeError : Ye Error tab raise hoti hai jab vo error koi dusri error catagory me ni milta'''
+
+
+
+Pratik singh
+5 months ago
+🔥🔥🔥
+
+
+
+sushila malav
+10 months ago
+You are doing a great work
+
+1
+
+
+Piyush
+1 year ago
+FloatingPointError - abhi use nhi kiya jata
+ImportError - jab import krne me koi problem aaye
+
+
+
+Shashank Kumar
+1 year ago
+UnicodeError - jab Unicode se sambandhit encoding ya decoding error ho
+FileExistsError - jab file ya directory pahle se hi bani ho aur hamara code/program same file ya directory ko dubara banane ki koshish kare
+
+1
+
+
+shubham kumar
+2 years ago
+Tnx bhai g
+
+1
+
+
+
+Rohan Beast
+1 week ago
+import os
+
+inp = input("Enter the file name: ")
+
+if inp.isspace() or inp.isnumeric():
+    raise IOError("This file is not readable or invalid, kripaya sahi file likhe!")
+
+os.chdir(inp)
+
+
+
+VIKAS KUMAR
+8 months ago
+UnicodeEncodeError - ye tab  raise hoga  jab Unicode ko encoding k process mai hoga
+moduleerror - ye module ko load krne ke doraan raise hoga kyuki module import hi nhi kiya hoga
+
+
+
+Alok Kumar
+8 months ago
+Key error : jab dictionary me key ki value na mile
+Import error : jab kisi module ko import krne me problem aa jae
+
+1
+
+
+Varun Dev
+9 months ago
+ModuleNotFound: jab control module locate na kr paye...
+Key error: jab kabhi kissi dictionary ki value dekhne ke liye uski key daale or wo  key galat ho
+
+1
+
+
+Ro Bot
+7 months ago
+Indentation Error--> Jab program mein indentation galat ho jati hai.
+Key Error--> Jab kisi dictionary meing key nhi milti.
+
+1
+
+
+Ankur Sahu
+1 year ago
+Harry bhai pls make a video on data structure...
+
+
+
+Jayesh kaushik
+1 year ago
+jab hum kisi local variable me koi string ya value assign nahi kerte usko unboundlocalError kehte hai
+
+1
+
+
+Get To go
+4 months ago
+TypeError-> jab koyi bhi function or variable type incorrect jaise us function us type keliye nahi he to yea exception raise hoga
+
+
+
+Vinod Shet
+1 month ago
+BufferError vo hai jo operation jo relate hua hai vo na chale....
+ImportError vo hai iab koimodule ko import kare or computer ko pareshni hoti hai us module ko import karne mai..
+
+Is it correct?.
+
+1
+
+
+Top gaming
+1 week ago
+Identation error - (jo maine samjha) jab kisi function ka implement text galat likha hai jaise uppercase ka use kar liya
+
+Import error - jab diye hua import module apne install nahi kiya hai to ye error aa ta hai
+
+
+
+Hindustani Supporter
+2 years ago
+ModuleNotFoundError tab aata hae jabkoi module import nahi kar pate
+
+
+
+
+Coding's Sprint
+Coding's Sprint
+5 months ago
+EOFError-> jab hum koi file end of file read karane ki koshish karate hai to EOF error aati hai
+RuntimeError -> jab koi user wrong input deta hai tab runtime  error show hoti hai (iso ko hum os related error ke sakate hai)
+
+
+
+Techy Sparks
+Techy Sparks
+7 months ago
+exception ImportError jab raise hoga tab koi module import karne mein dikkat aayegi.
+overflowError tab aayega jab koi arithmetic operation bahut bada hai represent karne ke liye.
+
+
+
+Get To go
+Get To go
+4 months ago
+FileExistsError->jab koyi bhi file aalready haai par hame doosri bar create keya tho yea exception raaise hoga
+
+
+
+Suryapratap Singh
+Suryapratap Singh
+1 month ago
+NameError - ye exception tb ata he jb local or globe variable koi bhi define na ho.
+StopeIteration - ye eception next() ki bajeah se ata he jb or itretable nahi ho.
+
+
+
+Pinki Kumari
+Pinki Kumari
+4 months ago
+ModuleNotFoundError --> jab module nahi milta hai
+
+NameError --> jab wo particular name nahi milta hai
+
+1
+
+
+Code 4U
+Code 4U
+4 months ago
+1module not find error ---> ye tab aata hai jab ham aisa module ko import kare jo hamare pc me hai hi nhi
+2key error ---> ye tab aata hia jab hamne aisa key likh diya jo hamare program me hai hi nhi
+
+1
+
+
+Naman Agarwal
+Naman Agarwal
+4 months ago
+FileExistsError-  Ye error tb ati h jb koi apni file ko vo nam de rha ho pehele ho kese  file k nam ho
+ValueError - Ye error tb ata h jb apki value k type sahi ho but uski range variable ki range se jada ho
+
+
+
+Mohsin Ali Irfan
+Mohsin Ali Irfan
+7 months ago
+tab error: jb hm extra tabs ya saces ka use krtay hn
+impotrt error: jb hm koi modle import kren mger wo sahi se na ho
+
+
+
+Pragya Tejra
+Pragya Tejra
+5 months ago
+FileExistError:- ye error tab aati h jab koi file already exist krti ho or usko wapes se crate krne ki koshish ki gyi ho tab FileExistError occure hoti h
+
+FileNotFoundError :- ye exception tab aati h jb ess file ko read ya open kra jata h jo directory me ho hi nhi matlab is name ki koi  file exist krti hi nhi ho tab ye exception occur hoti h
+
+1
+
+
+
+Ravi Yadav
+1 year ago
+GeneratorExit:this error occur jab generator ya coroutine exhaust ho jate h .
+Indexerror: jab index range kahatam ho jaye
+
+
+
+Shivam Dhamejani
+Shivam Dhamejani
+4 months ago
+import eror = ye tab aata hai jab programme import nahi kar pata hai
+
+module eror =  e tab aata hai jab programme me koi use hone wala module install nahi ho
+
+1
+
+
+Surbhit Gaming
+Surbhit Gaming
+1 week ago
+-UnicodeEncodeError : ye error tab use hota  hai jab encoding ke time unicode error ata h to
+TimeoutError  : ye tab use hota hai jab system function ka time out ho jata hai
+
+
+
+Khan Aamir
+Khan Aamir
+6 months ago
+Key Error --> Ye error tab aata hai jab mapping dictionary key maujood nahi ho dictionary me.
+
+Indentation Error --> Jab Indentation (spacing) proper na ho program me tab ye error aata hai.
+
+
+
+ashok garg
+ashok garg
+6 months ago
+FileExistsError --> Yeh error tab ati hai jab hum ek file ya directory banate hai jo already bani hui hoti hai.
+FileNotFoundError  -->  Yeh tab ati hai jab aap koi file ya directory ko request krte ho par vo hoti nhi hai ya phir moujood na ho.
+
+1
+
+
+Mr. Mask
+Mr. Mask
+2 months ago (edited)
+keyboard interrupt -> jab program ki execution ke dauran koi keyboard ki key press ho jae jaise ctrl+c press ho jae toh ye excetion raise hota hai aur mainly console main hi yeh error aata hai
+
+Type Error -> jab type casting na ho pae jaise int('n')
+
+
+
+MUKESH NARAYAN
+MUKESH NARAYAN
+11 months ago
+ImportError- jab kisi module ko import karne me koi trouble aata hai, ya phir kisi from list me wo module name define na ho.
+
+NameError- jab koi local ya global name define nahi rehta hai
+
+
+
+Honey Chintal
+Honey Chintal
+1 month ago
+EOFError -  ye error ata hai tab jab bhi koi file read krne par vo empty ho
+ ModuleNotFoundError- ye error aata hai jab bhi humara enterpreter module ko locate nahi kar pata hai
+
+
+
+Avijit Basu Neogi
+Avijit Basu Neogi
+7 months ago
+1)EOF error -> agar file ke ant tak pohuchne ke bad vi input() function se koi input na mile toh yeh error ata hain.
+2)Import error -> agar import function kam na kare toh yeh error ata hain.
+
+
+
+sourabh saha
+sourabh saha
+5 months ago
+NotADirectoryError--ye error tab aata ha jab os.listdir() ka use kare aur wo directory mai present na ho
+
+OverflowError---ye tab raise hota ha jab arithematic operation ka result bahut large hota ha
+
+
+
+Samruddhi Selukar
+Samruddhi Selukar
+4 months ago
+1. IndexError = jab available index se jyaada bada index likha jaye
+2. KeyboardInturrupt error = jab hum koi running program ko ctrl+c ya ctrl+z se rokne ki koshish karte hai
+
+
+
+Varad's World
+Varad's World
+5 months ago (edited)
+SyntaxError - Ye tab aata hai jab syntax mai gadbad hoti hai.
+KeyboardInterrupt - Jab kisi proccess ke bich mai hum keyboard ka koi button dabate hai to yeh error aata hai.
+
+
+
+FEYNMAN
+FEYNMAN
+6 months ago
+1) generator exit : ye tab aata hai jab generators close() call hota hai
+2) import error : module not found : jab module jo import kar rhe ho wo availible na ho
+
+
+
+Rohit Saini
+Rohit Saini
+8 months ago
+EOFError -- Jab file_pointer bina file ko read kiye hi end-of-file pe pahuch jata hai tab ye error aata h
+ImportError -- Jab kisi module ko import hone m problem hoti h tab ye error aata hai
+
+
+
+Devesh Dubey
+Devesh Dubey
+7 months ago
+BufferError-- jb buffer se related problems handel na ho sake
+
+KeyError-- jb kisi key ki mapping (dictionary) krte waqt vo key given set me na present ho

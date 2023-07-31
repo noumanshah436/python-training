@@ -1,0 +1,11 @@
+https://www.geeksforgeeks.org/python-design-patterns/
+
+https://refactoring.guru/design-patterns/python
+
+
+
+remaining:
+
+1) state patterns
+
+2) builder

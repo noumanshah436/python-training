@@ -1,0 +1,52 @@
+https://www.geeksforgeeks.org/abstract-classes-in-python/
+
+How Abstract Base classes work :
+By default, Python does not provide abstract classes.
+Python comes with a module that provides the base for defining Abstract Base classes(ABC)
+and that module name is ABC.
+
+ABC works by decorating methods of the base class as abstract and
+then registering concrete classes as implementations of the abstract base.
+ A method becomes abstract when decorated with the keyword @abstractmethod.
+
+***************
+
+Following is the syntax for defining abstract method in abstract class in Python:
+
+# from abc import ABC, abstractmethod
+# Class MyClass(ABC):
+#       @abstractmethod
+#       def mymethod(self):
+#             #empty body
+#             pass
+*************************************
+If we are using Python version older than 3.4, then we have to write:
+
+# from abc import ABCMeta, abstractmethod
+Moreover, we have to pass ABCMeta into the class which we are defining as abstract.
+
+************
+
+Although if our version is newer, then we can import by the statement:
+
+# from abc import ABC, abstractmethod
+And we have to pass ABC to the class we are defining as abstract.
+*************************************
+
+To make a method specifically abstract in a class, we use the abstract method decorator
+denoted as @absttractmethod, which is defined in the abc module.
+*************************************
+
+Important points about abstract class in Python:
+1) Abstract methods are defined in the abstract class. Mostly they do not have the body, but it is possible to have
+    abstract methods with implementation in the abstract class. Any subclass deriving from such abstract class still
+    needs to provide an implementation for that abstract methods.
+2) An abstract class can have both abstract methods as well as concrete methods.
+3) The abstract class works as a template for other classes.
+4) By using the abstract class, we can define a structure without providing a proper implementation of every method.
+5) It is not possible to create objects of an abstract class because Abstract class cannot be instantiated.
+    (because abstract methods have no implementation)
+6) An error will occur if the abstract method has not been implemented in the derived class.
+
+
+

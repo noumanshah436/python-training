@@ -1,0 +1,27 @@
+
+
+https://cloudcone.com/docs/article/how-to-install-pip-on-ubuntu-20-04/
+
+
+
+pip3 --version
+pip 20.0.2 from /usr/lib/python3/dist-packages/pip (python 3.8)
+
+
+ 3604  sudo apt update
+ 3605  sudo apt install python3-pip
+ 3606* touch machine_setup.txt
+ 3607  pip3 --version
+ 3608  pip3 list
+ 3609  python --version
+ 3610  pip --version
+ 3611  python --version
+ 3612  pip install python
+ 3613  python -V
+ 3614  sudo apt-get install python3
+ 3615  python -V
+ 3616  python - -version
+ 3617  python3 -V\n
+ 3618  python3 --version\n
+ 3619  which python3\n
+

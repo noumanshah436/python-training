@@ -1,0 +1,34 @@
+**************
+
+pip install pyinstaller
+
+**************
+
+use .py extension but if we have another extention with python code in it it will also run.
+
+python   hello.py
+or python .\hello.txt
+
+
+**************
+
+make exe file of python program
+
+pyinstaller hello.py 
+
+
+dist(distribute) -> main 
+
+run using cmd or powershell using just  nameOfFile.exe 
+
+
+hello.exe
+
+**************
+
+for one file only
+
+pyinstaller --onefile hello.py
+
+
+**************

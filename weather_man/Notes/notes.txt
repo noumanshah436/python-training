@@ -1,0 +1,4 @@
+python3 weatherman.py -e  2004 Murree_weather
+python3 weatherman.py -a  2004/7 Murree_weather
+python3 weatherman.py -c  2004/7 Murree_weather
+python3 weatherman.py -b  2004/7 Murree_weather

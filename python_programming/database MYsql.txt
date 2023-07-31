@@ -1,0 +1,27 @@
+https://dev.mysql.com/downloads/workbench/
+
+
+
+https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.23.0.msi
+
+
+# from pymysql import *
+import pymysql
+from pymysql.cursors import DictCursor
+
+db = pymysql.connect(host="localhost", user="root",
+                     password="password", database="dbname")
+
+
+cursor = db.cursor(DictCursor)
+
+cursor.execute("select * from tableName")
+
+
+for row in cursor:
+    print(row)
+    print(type(row))
+
+
+cursor.close()
+db.close()
