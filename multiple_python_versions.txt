@@ -1,0 +1,85 @@
+
+first install prerequisite libraries:
+
+sudo apt update
+sudo apt install \
+    build-essential \
+    curl \
+    libbz2-dev \
+    libffi-dev \
+    liblzma-dev \
+    libncursesw5-dev \
+    libreadline-dev \
+    libsqlite3-dev \
+    libssl-dev \
+    libxml2-dev \
+    libxmlsec1-dev \
+    llvm \
+    make \
+    tk-dev \
+    wget \
+    xz-utils \
+    zlib1g-dev
+    
+
+***********************
+
+Pyenv: A Guide to Creating and Managing Different Python Versions: 
+
+https://primerpy.medium.com/pyenv-a-guide-to-creating-and-managing-different-python-versions-60d31735d9fa
+
+***********************
+
+installation summary:
+
+  1)  curl https://pyenv.run | bash
+
+  2)  code ~/.bashrc
+  
+  added these line at the end:
+  
+	export PATH="$HOME/.pyenv/bin:$PATH"
+	eval "$(pyenv init -)"
+
+  3)  source ~/.bashrc
+  4)  pyenv install 3.9
+
+
+In case of any error, paste error on google or chatgpt, first try with google
+
+https://stackoverflow.com/questions/67807596/pyenv-install-3-x-build-failed-ubuntu-20-04-using-python-build-20180424
+
+***********************************
+
+You can list all the available versions of Python using the following command:
+
+$ pyenv versions
+
+
+********************************
+
+Setting the Global Python Version
+
+To set the global Python version, use the following command:
+
+pyenv global 3.9
+
+
+*******************************
+
+
+To set the local Python version for a specific project, use the following command:
+
+pyenv local <version>
+
+
+*******************************
+
+Uninstalling Python Versions
+
+pyenv uninstall 3.9.1
+
+*******************************
+
+
+
