@@ -13,10 +13,11 @@ print(dic)
 
 def file_writer(file_name):
     file = open(file_name, "w")
-    strig = dic.values()
-    string = ','.join(lst)
-    file.write(dic)
+    # strig = dic.values()
+    string = ",".join(lst)
+    file.write(string)
     file.close()
+
 
 file_writer("test.txt")
 

@@ -6,8 +6,8 @@ class Bird:
         print("There are many types of birds.")
 
 
-def flight(self):
-    print("Most of the birds can fly but some cannot.")
+    def flight(self):
+        print("Most of the birds can fly but some cannot.")
 
 
 class sparrow(Bird):

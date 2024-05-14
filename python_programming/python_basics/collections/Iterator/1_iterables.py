@@ -1,15 +1,15 @@
 # What types are iterable in python?
 # Every thing that we can loop over in python is an iterable.
+
 # Examples of iterables include all sequence types (such as list , str , and tuple )
 # and some non-sequence types like dict , file objects, and objects of any classes you
 # define with an __iter__() method or with a __getitem__() method that implements Sequence semantics.
 
-# Iterable is not an iterator , it is an iterable(we can iterate it) for example string is an iterable
+# Iterable is not an iterator, it is an iterable(we can iterate it) for example string is an iterable
 # because there is __iter__ or __getitem__() defined. But we can get its iterator by using __iter__()
 # or iter() method and iterate it with __next__ method
 #
 # A number is not iterable and it has no defination of iter() method
-#
 # ______________________
 
 # Iterator in Python is simply an object that can be iterated upon. An object which will
@@ -40,7 +40,7 @@ num_list = [1, 4, 9]
 
 # iterate using iterable object
 iter_obj = iter(num_list)
-print(type(iter_obj))   # <class 'list_iterator'>
+print(type(iter_obj))  # <class 'list_iterator'>
 
 while True:
     try:
@@ -53,4 +53,3 @@ while True:
 #
 # for i in num_list:
 #     print(i)
-

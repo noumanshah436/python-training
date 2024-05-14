@@ -51,7 +51,7 @@ f.seek(0)
 
 print(f.tell())
 print(f.readline(), end="")
-print(f.tell())              # the file pointer updated after read operation
+print(f.tell())  # the file pointer updated after read operation
 
 print(f.readline(), end="")
 print(f.tell())
@@ -64,4 +64,3 @@ f.close()
 # you cannot perform end-relative seeks with the f.seek() method.
 
 #  The f.seek() method in text mode only allows you to seek from the beginning of the file (0).
-

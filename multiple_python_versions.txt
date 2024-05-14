@@ -82,4 +82,9 @@ pyenv uninstall 3.9.1
 *******************************
 
 
+pyenv install 3.12.3
+
+pyenv global 3.12.3
+
+
 

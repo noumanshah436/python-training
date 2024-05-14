@@ -49,6 +49,7 @@ There are many Built_in decorators like setter, getter, property etc
 
 # here we are making our own decorator
 
+
 def dec1(func1):
     def now_exec():
         print("Executing now")
@@ -65,8 +66,6 @@ def who_is_harry():
 
 # who_is_harry = dec1(who_is_harry)      # way 1
 
-who_is_harry()                         # way 2 by using @dec1
+who_is_harry()  # way 2 by using @dec1
 
 # using @dec1 ,  who_is_harry automatically call dec1 function with passing itself as argument
-
-

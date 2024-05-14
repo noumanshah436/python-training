@@ -7,16 +7,16 @@ Guido van Rossum started working on Python in the late 1980s, and the first vers
 
 
 ******************************************************************
-******************************************************************
-
 Loosely Typed vs Strongly Typed Languages
+******************************************************************
 
 Loosely Typed Language (Weakly Typed Language):
 
-In a loosely typed language, variables are not bound to a specific data type at the time of declaration.
-The type of a variable can change dynamically during runtime based on the context in which it is used.
-Operations may be performed between different data types without explicit type conversion.
+1) In a loosely typed language, variables is not bound to a specific type.
+2) The type of a variable can change dynamically during runtime. We can assign values of different data types to the same variable.
+3) Operations may be performed between different data types without explicit type conversion.
 This flexibility can lead to implicit type conversions, which can sometimes cause unexpected behavior if not handled carefully.
+
 Example of a loosely typed language: JavaScript
 
 javascript
@@ -29,9 +29,12 @@ let result = num + 5; // JavaScript automatically converts num to a string, resu
 
 Strongly Typed Language:
 
-In a strongly typed language, variables are bound to a specific data type at the time of declaration.
-The type of a variable cannot change during runtime, and any operations between different data types require explicit type conversion.
+1) In a loosely typed language, variables is bound to a specific type.
+2) The type of a variable cannot change during runtime, and any operations between different data types require explicit type conversion.
+3) Type related bugs can be reduced
+4) Type identification tags are not needed at run time.
 Type errors are caught by the compiler or interpreter at compile-time or runtime, respectively, ensuring more predictable behavior.
+
 Example of a strongly typed language: C++
 
 
@@ -40,26 +43,39 @@ int num = 10; // num is an integer
 // num = "Hello"; // This would cause a compilation error, as you can't assign a string to an int
 int result = num + 5; // This works since both operands are integers
 
+***************
+
 In summary, loosely typed languages allow more flexibility with variable types and can perform implicit type conversions, while strongly typed languages enforce strict data type rules and require explicit type conversion when needed.
 Each approach has its pros and cons, and the choice of using one type system over the other depends on the programming language's design philosophy and the requirements of the application being developed.
 
-
 ************
 
-Python is both a strongly typed and a dynamically typed language. Strong typing means that variables do have a type and that the type matters when performing operations on a variable.
+Python is both a strongly typed and a dynamically typed language.
+Strong typing means that variables do have a type and that the type matters when performing operations on a variable.
 Dynamic typing means that the type of the variable is determined only during runtime.
 
-******************************************************************
-******************************************************************
-
-Static vs. Dynamic Typing
-
-“When types are checked”
 
 "3" + 5 will raise a type error in strongly typed languages, such as Python and Go, because they don't allow for "type coercion": the ability for a value to change type implicitly in certain contexts (e.g. merging two types using +). Weakly typed languages, such as JavaScript, won't throw a type error (result: '35').
 
+
+
+******************************************************************
+Static vs Dynamic Typing
+******************************************************************
+
+“When types are checked”
+
 Static: Types checked before run-time
 Dynamic: Types checked on the fly, during execution
+
+Static typing:
+- In static typing, the type is bound to the variable. Types are checked at compile time (before run-time).
+- That means that in a statically typed language, once the variable has been declared with a type, you can't change that type later; you can of course assign it new values, but they must be of the same types.
+
+dynamic typing:
+- On dynamic typing, the type is bound to the value. The checks are made at runtime (don't check types until execution).
+- As the type of the variable is bound to the values, it can change along with the type of the values assigned.
+
 
 The definitions of “Static & Compiled” and “Dynamic & Interpreted” are quite similar…but remember it’s “when types are checked” vs. “when source code is translated”.
 
@@ -126,6 +142,7 @@ Python doesn’t support constants or non-reassignable names. Using uppercase le
 
 
 ******************************************************************
+Python Virtual Environment and Packages
 ******************************************************************
 
 Pip
@@ -157,14 +174,16 @@ Virtual environment:
 https://realpython.com/what-is-pip/
 
 
-To avoid installing packages directly into your system Python installation, you can use a virtual environment. A virtual environment provides an isolated Python interpreter for your project. Any packages that you use inside this environment will be independent of your system interpreter. This means that you can keep your project’s dependencies separate from other projects and the system at large.
+To avoid installing packages directly into your system Python installation, you can use a virtual environment.
+A virtual environment provides an isolated Python interpreter for your project.
+Any packages that you use inside this environment will be independent of your system interpreter.
+This means that you can keep your project’s dependencies separate from other projects and the system at large.
 
 Using pip inside a virtual environment has three main advantages. You can:
 
 Be sure that you’re using the right Python version for the project at hand
 Be confident that you’re referring to the correct pip instance when running pip or pip3
 Use a specific package version for your project without affecting other projects
-
 
 C:\> python -m venv venv
 C:\> venv\Scripts\activate.bat
@@ -176,10 +195,15 @@ pip 21.2.3 from ...\lib\site-packages\pip (python 3.10)
 
 Pipenv:
 
-Pipenv is a packaging tool for Python that solves some common problems associated with the typical workflow using pip, virtualenv, and the good old requirements.txt.
+Pipenv is a higher-level packaging tool for Python that combines the functionality of pip and virtualenv.
+Pipenv solves some common problems associated with the typical workflow using pip, virtualenv, and the good old requirements.txt.
 
+It helps manage project dependencies and creates isolated Python environments for each project
+
+Pipenv provides a more convenient and structured way to manage dependencies and environments for Python projects.
 In addition to addressing some common issues, it consolidates and simplifies the development process to a single command line tool.
 
+It automatically generates and manages a Pipfile and Pipfile.lock to track project dependencies and their versions.
 
 
 Problems that Pipenv Solves:
