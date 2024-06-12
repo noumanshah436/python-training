@@ -85,7 +85,10 @@ Python Example
 Dynamic, Interpreted
 
 def foo(a):
-	if a > 0:        print 'Hi'    else:        print "3" + 5
+	if a > 0:        
+		print 'Hi'    
+	else:        
+		print "3" + 5
 
 foo(2)
 

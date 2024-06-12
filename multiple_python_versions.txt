@@ -1,4 +1,26 @@
 
+We will use pyenv for multiple python versions:
+
+Pyenv is a popular tool for managing multiple Python versions on a single system. It allows users to install, switch, and manage multiple versions of Python efficiently. 
+
+Here are the key features of pyenv:
+
+1. **Installation of Multiple Python Versions**: Pyenv lets you easily install and switch between different versions of Python, including older versions, newer releases, and even custom builds.
+
+2. **Version Switching**: You can switch the global Python version, set a local version for a specific directory, or even temporarily switch the version for the duration of a shell session.
+
+3. **Virtual Environments**: Pyenv can work alongside tools like `pyenv-virtualenv` to manage virtual environments, allowing isolated development environments for different projects.
+
+4. **Shims**: Pyenv uses shims, which are lightweight executables that intercept Python commands and direct them to the appropriate Python version. This ensures that your shell always uses the correct version of Python.
+
+5. **Easy Integration**: Pyenv integrates well with other tools and scripts, providing a flexible way to manage Python versions across different development environments.
+
+Overall, pyenv is a powerful and user-friendly tool for Python developers who need to work with multiple versions of Python on the same system.
+
+********************************************************************************************
+
+Installation:
+
 first install prerequisite libraries:
 
 sudo apt update
@@ -55,7 +77,9 @@ You can list all the available versions of Python using the following command:
 
 $ pyenv versions
 
-
+  system
+  3.9.19
+* 3.12.3 (set by /home/dev/.pyenv/version)
 ********************************
 
 Setting the Global Python Version

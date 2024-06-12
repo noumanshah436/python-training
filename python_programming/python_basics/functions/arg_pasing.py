@@ -30,4 +30,3 @@ print(list1, list2, sep="\n")
 print(id(list1), id(list2))
 
 # ************************
-

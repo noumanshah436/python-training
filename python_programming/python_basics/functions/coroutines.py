@@ -36,6 +36,7 @@
 # *******************************************
 import time
 
+
 def searcher():
 
     # Some 4 seconds time consuming task
