@@ -8,12 +8,12 @@
 
 # ------------------- 1 ----------------------
 
-# happy = True
-# print(happy)
+happy = True
+print(happy)
 
 # using walrus operator
 
-# print(happy := True)
+print(happy := True)
 
 # -------------------- 2 ---------------------
 
@@ -34,13 +34,13 @@ while food := input("What food do you like?: ") != "quit":
 
 # ------------------- 3 ----------------------
 
-my_list = [1,2,3,4,5]
+my_list = [1, 2, 3, 4, 5]
 if len(my_list) > 3:
     print(f"The list is too long with {len(my_list)} elements")
 
 # the walrus operator can eliminate calling the len() function twice as given below
 
-my_list = [1,2,3,4,5]
+my_list = [1, 2, 3, 4, 5]
 if (n := len(my_list)) > 3:
     print(f"The list is too long with {n} elements")
 

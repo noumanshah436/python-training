@@ -29,7 +29,7 @@ let result = num + 5; // JavaScript automatically converts num to a string, resu
 
 Strongly Typed Language:
 
-1) In a loosely typed language, variables is bound to a specific type.
+1) In a strongly typed language, variables is bound to a specific type.
 2) The type of a variable cannot change during runtime, and any operations between different data types require explicit type conversion.
 3) Type related bugs can be reduced
 4) Type identification tags are not needed at run time.

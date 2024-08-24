@@ -28,7 +28,7 @@ food = ["pizza", "hamburger", "hotdog", "spaghetti", "pudding"]
 # food.pop()                     # remove last element
 # food.insert(0,"cake")          # insert at specific index i.e (index , value)
 # food.sort()                    # sort alphabetically
-# food.clear()                   #remove all items in list
+# food.clear()                   # remove all items in list
 
 # print("length of list:", len(food))
 # for x in food:

@@ -7,7 +7,6 @@
 # is the function that needs conversion.
 
 
-
 # 2) A @classmethod Decorator is a built-in function in Python. It can be applied to any method of the class.
 #   We can change the value of class variables using this method too.
 
@@ -30,6 +29,7 @@
 
 # ****************************************
 
+
 class Employee:
     no_of_leaves = 8
 
@@ -46,7 +46,9 @@ class Employee:
         # it will be just a block scope temporary variable
 
     def print_details(self):
-        return f"The Name is {self.name}. Salary is {self.salary} and role is {self.role}"
+        return (
+            f"The Name is {self.name}. Salary is {self.salary} and role is {self.role}"
+        )
 
 
 harry = Employee("Harry", 255, "Instructor")
@@ -59,7 +61,6 @@ print(harry.__dict__)
 
 print(harry.no_of_leaves)
 print(Employee.no_of_leaves)
-
 
 
 # we can call class method using instance of the class but it can only change class attributes

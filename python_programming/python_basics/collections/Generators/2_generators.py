@@ -7,7 +7,9 @@ Iteration -
 
 # ********************************
 
+
 def gen(n):
+    print("Gener")
     for i in range(n):
         yield i
 
@@ -38,16 +40,18 @@ def gen(n):
 
 
 def factcal(n):
-    if n==0 or n==1:
+    if n == 0 or n == 1:
         return 1
     return n*factcal(n-1)
 
+
 def factgen(n):
-    i=1
-    while i<=n:
+    i = 1
+    while i <= n:
         # print(f"fact {i}")
         yield factcal(i)
-        i +=1
+        i += 1
+
 
 g = factgen(8)
 

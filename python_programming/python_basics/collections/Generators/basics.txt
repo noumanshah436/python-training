@@ -33,11 +33,11 @@ that it also saves the state of the iterator. Meaning that when we use the funct
 resume it is the value from the place it left off.
 
 Generators in Python are created just like the normal functions using the ‘def’ keyword. Generator functions
-do not run by their name, and they are run when the __next__() function is called.Generator is very helpful
-in projects relating to memory issue because like a simple iterator, it does not return all the values at a
-time instead it produces, series of values overtime. So a generator is generally used when we want to
-iterate over a series of values but do not want to store them completely in memory.
+do not run by their name, and they are run when the __next__() function is called. 
 
+Generator is very helpful in projects relating to memory issue because like a simple iterator, 
+it does not return all the values at a time instead it produces, series of values overtime. 
+So a generator is generally used when we want to iterate over a series of values but do not want to store them completely in memory.
 
 
 Differences between Generator function and Normal function

@@ -1,3 +1,8 @@
+# Pickling: Serializing an object (list, dict, etc.) into a string representation that can be saved to a file.
+# Unpickling: Reversing the process, converting the string representation back into the object.
+
+# *******************************************************
+
 # Python pickle module is used for serializing and de-serializing a Python object structure.
 # Any object in Python can be pickled so that it can be saved on disk.
 # What pickle does is that it “serializes” the object first before writing it to file.

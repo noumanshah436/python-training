@@ -16,14 +16,20 @@
 # ****************************
 
 
-# # copy using = operator
+# copy using = operator
 # list1 = [1, 2, 3, 4]
 # list2 = list1
-#
+
 # print("list1:", list1, id(list1))
 # print("list2:", list2, id(list2))
-#
+
+# # this will modify for both the list, as we are changing the list
 # list1.append(34)
+# print("list1:", list1, id(list1))
+# print("list2:", list2, id(list2))
+
+# # this will allocate new array for list2 only, list1 remains same
+# list2 = [1]
 # print("list1:", list1, id(list1))
 # print("list2:", list2, id(list2))
 

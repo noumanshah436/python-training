@@ -43,8 +43,6 @@ for country in (obj_ind, obj_usa):
     country.type()
 
 
-
-
 ### Application of Class Polymorphism:
 
 # 1. **Code Reusability**: Polymorphism allows you to reuse code by creating classes that implement the same interface but provide different implementations.
@@ -53,8 +51,8 @@ for country in (obj_ind, obj_usa):
 
 # 3. **Abstraction**: Polymorphism allows you to work with objects at a higher level of abstraction, focusing on what they can do rather than their specific implementations.
 
-# In real-world applications, class polymorphism is used extensively in frameworks, libraries, and systems where 
-# flexibility and code reuse are important. For example, in GUI frameworks, different types of widgets (buttons, text 
-# fields, etc.) may all inherit from a common superclass and provide their own implementations for handling user 
-# interactions. Similarly, in web frameworks, different types of HTTP requests (GET, POST, etc.) may be treated 
+# In real-world applications, class polymorphism is used extensively in frameworks, libraries, and systems where
+# flexibility and code reuse are important. For example, in GUI frameworks, different types of widgets (buttons, text
+# fields, etc.) may all inherit from a common superclass and provide their own implementations for handling user
+# interactions. Similarly, in web frameworks, different types of HTTP requests (GET, POST, etc.) may be treated
 # uniformly, allowing developers to work with them using a common interface.

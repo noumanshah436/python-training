@@ -1,6 +1,7 @@
 # from abc import ABCMeta, abstractmethod
 from abc import ABC, abstractmethod
 
+
 class Shape(ABC):
     @abstractmethod
     def printarea(self):

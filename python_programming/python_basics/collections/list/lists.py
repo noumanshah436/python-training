@@ -27,7 +27,8 @@ print(numbers[0])
 # print(numbers[1:5:2])
 # print(numbers[1:5:-1])
 # print(numbers[::-1])   # for -ve step, consider as it reverse the string and then read according to given step
-print(numbers[::-2])     # -step slicing only works fine with default value (start , end ) whether it is string or list
+# -step slicing only works fine with default value (start , end ) whether it is string or list
+print(numbers[::-2])
 # 3, 11, 9, 7, 2
 
 # print(numbers)
@@ -35,5 +36,3 @@ print(numbers[::-2])     # -step slicing only works fine with default value (sta
 # print(numbers)
 # Mutable - can change
 # Immutable - cannot change
-
-
