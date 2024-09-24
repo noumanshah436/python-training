@@ -1,7 +1,7 @@
 
 
 1) install
-pip3 install jupyter
+pip3 install jupyter notebook
 
 2) open folder
 jupyter notebook

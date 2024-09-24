@@ -1,12 +1,10 @@
 python -> interpreter  (  execute code of python)
 
-
 pycharm -> IDE (run code using python interpreter)(provide environment to code effectively and easily)
 
 
 
 python interpreter:
-
 
 setting ->  project:Helloworld -> project interpreter
 

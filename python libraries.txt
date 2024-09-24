@@ -1,3 +1,7 @@
+
+
+
+
 request
 TKinter          for GUI
 SQLAlchemy       for database (use with flask)

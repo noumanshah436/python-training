@@ -173,9 +173,6 @@ The `typing` module in Python provides support for type hints, which allow you t
     # print(first_element({4, 5, 6}))  # error
    ```
 
-3 
-
-
 
 ### Type Checking and Mypy
 
