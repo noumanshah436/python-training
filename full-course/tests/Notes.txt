@@ -1,0 +1,90 @@
+
+Python Unit Testing With Pytest 4 - pytest fixtures + setup/teardown methods
+
+https://www.youtube.com/watch?v=JJmTO95AoqE&list=PLS1QulWo1RIaNFUz4zrztWlCJgkpXht-H&index=4
+
+**********************************
+
+What is Unit Testing - According to wikipedia, unit testing is a software testing method by which individual units of source code are tested to determine whether they are fit for use. 
+
+Why Unit Test? - 
+Tests Reduce Bugs in New Features and Existing Features
+Tests Are Good Documentation
+Tests Reduce the Cost of Change
+Faster Debugging
+Faster Development
+Better Design
+
+**********************************
+
+Python Testing frameworks:
+
+unittest - In the Python Standard Library
+nose - Not in the Standard Library. Simpler tests than unittest
+pytest - Not in the Python Standard Library.
+
+**********************************
+
+
+pip install pytest
+pip install pytest-asyncio
+pip install requests
+
+
+**********************************
+test_math_func_1.py file:
+**********************************
+
+Run tests using pytest:
+
+1) run all test functions
+$ cd 1-getting-started/
+$ pytest test_math_func_1.py 
+
+2) Or pass -v flag to get more detailed output:
+$ pytest test_math_func_1.py -v
+
+3) Call specific test:
+$ pytest test_math_func_1.py::test_add -v
+
+4) As we have prefix our file with `test_`, pytest will automatically discover and run these tests using this command.
+$ py.test
+$ py.test -v
+
+
+******************************************************************************
+test_math_func_2.py file:
+******************************************************************************
+
+Use Options with pytest: 
+
+How to run cases? 
+
+• pytest tests/test_mod.py
+• pytest tests/ 
+
+• pytest -k match           # def test_match():  
+-k EXPRESSION  only run tests which match the given substring expression. 
+
+• pytest --showlocals           # trace context 
+• pytest -x                     # stop on first failure case 
+• pytest --maxfail=2            # on the second 
+• pytest -s                     # enable `print` output 
+• pytest --durations=5          # list top 5 slowest cases
+• pytest --tb=long              # default traceback 
+• pytest --tb=line              # oneline 
+• pytest --tb=short 
+• pytest --tb=native            # Python default traceback
+
+**************************
+
+-m MARKEXPR only run tests matching given mark expression.
+example: -m 'mark1 and not mark2'.
+example: -m 'mark1 or mark2'.
+example: -m 'mark1 and mark2'.
+
+  
+• pytest --markers              # show all markers (builtin, plugin and per-project ones).
+
+
+******************************************************************************

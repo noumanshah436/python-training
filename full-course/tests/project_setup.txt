@@ -1,0 +1,10 @@
+$ python --version
+Python 3.12.3
+
+
+$ python -m venv venv
+$ source venv/bin/activate
+$ pip install pytest pytest-asyncio requests
+$ pip freeze > requirements.txt
+
+$ pytest test_math_func_1.py -v

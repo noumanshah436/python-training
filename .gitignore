@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__
+*.egg-info
+
+# Django dynamic directories
+logs
+media
+
+
+# Environment variables
+
+
+# Virtual environment
+.venv
+envname
+venv
+
+# Static files
+node_modules
+
+# IDE config
+.vscode
+
+
+
+.DS_Store
+*.pyc
+
+.idea
+
