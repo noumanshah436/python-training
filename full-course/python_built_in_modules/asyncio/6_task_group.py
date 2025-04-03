@@ -4,7 +4,7 @@ import asyncio
 # task group is a slightly more preferred way to create multiple tasks and organize them together. The reason for
 # this is that it provides built-in error handling.
 
-# If any of the tasks inside the task group fail, it will automatically cancel all the other tasks, which is ypically
+# If any of the tasks inside the task group fail, it will automatically cancel all the other tasks, which is typically
 #    preferable when dealing with advanced errors or larger applications where we want to be more robust.
 
 

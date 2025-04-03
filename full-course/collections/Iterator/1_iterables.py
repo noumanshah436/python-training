@@ -12,6 +12,9 @@
 # A number is not iterable and it has no defination of iter() method
 # ______________________
 
+# we iterate an iterable using an iterator object.
+# ______________________
+
 # Iterator in Python is simply an object that can be iterated upon. An object which will
 #    return data, one element at a time.
 # Technically speaking, a Python iterator object must implement two special methods,
@@ -38,7 +41,7 @@
 
 num_list = [1, 4, 9]
 
-# iterate using iterable object
+# iterate using iterator object
 iter_obj = iter(num_list)
 print(type(iter_obj))  # <class 'list_iterator'>
 

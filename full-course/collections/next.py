@@ -1,24 +1,25 @@
 
 ### Simple Example of `next()` with a Condition
 
-# Let's create a simple example using a list of dictionaries representing actors, 
-# and we want to find an actor based on a specific condition.
+# we want to find an actor based on id
 
-# List of actors represented as dictionaries
 actors = [
     {'id': 1, 'name': 'Alice'},
     {'id': 2, 'name': 'Bob'},
     {'id': 3, 'name': 'Charlie'}
 ]
+ 
+# This give StopIteration error if actor is not found
+actor = next(actor for actor in actors if actor['id'] == 2)
 
-# Define the actor ID to search for
-actor_id_to_find = 2
-
-# Use next() to find the first actor with the specified ID, or None if not found
-actor = next((actor for actor in actors if actor['id'] == actor_id_to_find), None)
+# next with default value, return default value if actor is not found
+actor = next((actor for actor in actors if actor['id'] == 3), None)
 
 # Output the result
 print(actor)  # Output: {'id': 2, 'name': 'Bob'}
+
+# ************************************************************
+
 
 
 ### Explanation

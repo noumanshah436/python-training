@@ -15,6 +15,20 @@ print(happy)
 
 print(happy := True)
 
+
+# ------------------- 1---------------------
+
+# x := 2
+
+# Gives error
+# Operator ":=" is not allowed in this context without surrounding parenthesesPylance
+
+# ------------------- 1---------------------
+
+(x1 := 32)
+
+print(x1)  # 32
+
 # -------------------- 2 ---------------------
 
 foods = list()
@@ -28,7 +42,7 @@ while True:
 # in less line lines of code
 
 foods = list()
-while food := input("What food do you like?: ") != "quit":
+while (food := input("What food do you like?: ")) != "quit":
     foods.append(food)
 
 

@@ -30,6 +30,8 @@ async def main():
     task2 = asyncio.create_task(fetch_data(2, 3))
     task3 = asyncio.create_task(fetch_data(3, 1))
 
+    print("Hellow world")
+
 
     result1 = await task1
     result2 = await task2
