@@ -29,7 +29,7 @@ space, enabling true parallelism.
 A thread is the smallest unit of execution within a process.
 A process can have multiple threads, all running in the same memory space.
 Threads share the same memory and data of the parent process.
-Threads are often used to perform tasks concurrently (doing more than one thing at the same time).
+Threads are often used to perform tasks concurrently ((multiple threads running concurrently but not truly in parallel)).
 
 ✅ What is Multithreading?
 Multithreading is a technique where multiple threads run within the same process, either simultaneously or in quick 
