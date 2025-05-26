@@ -21,8 +21,8 @@ def main():
     #                                   and we can create that number of processes, if we create more processes
     #                                   than CPU_count then it will take more time to complete a task
 
-    a = Process(target=counter, args=(500000000,))  # 1billion = 100 crores = 1 Arab
-    b = Process(target=counter, args=(500000000,))
+    a = Process(target=counter, args=(100,))
+    b = Process(target=counter, args=(100,))
 
     """
     for arguments we have to pass in a tuple , since we have only one argument to pass in,  
