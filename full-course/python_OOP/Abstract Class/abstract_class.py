@@ -17,7 +17,7 @@ class Rectangle(Shape):
         self.breadth = 7
 
     def printarea(self):
-        # print(super().printarea())
+        print(super().printarea())
         return self.length * self.breadth
 
 

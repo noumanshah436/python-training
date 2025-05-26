@@ -1,0 +1,232 @@
+
+Python history:
+
+The name "Python" for the programming language has an interesting origin story. It was named after the British comedy television show called "Monty Python's Flying Circus," which aired during the late 1960s and early 1970s. The language's creator, Guido van Rossum, was a fan of the show and decided to name his new programming language "Python" in homage to it.
+
+Guido van Rossum started working on Python in the late 1980s, and the first version, Python 0.9.0, was released in February 1991.
+
+
+******************************************************************
+Loosely Typed vs Strongly Typed Languages
+******************************************************************
+
+Loosely Typed Language (Weakly Typed Language):
+
+1) In a loosely typed language, variables is not bound to a specific type.
+2) The type of a variable can change dynamically during runtime. We can assign values of different data types to the same variable.
+3) Operations may be performed between different data types without explicit type conversion.
+This flexibility can lead to implicit type conversions, which can sometimes cause unexpected behavior if not handled carefully.
+
+Example of a loosely typed language: JavaScript
+
+javascript
+Copy code
+let num = 10; // num is initially an integer
+num = "Hello"; // Now num is a string
+let result = num + 5; // JavaScript automatically converts num to a string, result is "Hello5"
+
+***************
+
+Strongly Typed Language:
+
+1) In a strongly typed language, variables is bound to a specific type.
+2) The type of a variable cannot change during runtime, and any operations between different data types require explicit type conversion.
+3) Type related bugs can be reduced
+4) Type identification tags are not needed at run time.
+Type errors are caught by the compiler or interpreter at compile-time or runtime, respectively, ensuring more predictable behavior.
+
+Example of a strongly typed language: C++
+
+
+Copy code
+int num = 10; // num is an integer
+// num = "Hello"; // This would cause a compilation error, as you can't assign a string to an int
+int result = num + 5; // This works since both operands are integers
+
+***************
+
+In summary, loosely typed languages allow more flexibility with variable types and can perform implicit type conversions, while strongly typed languages enforce strict data type rules and require explicit type conversion when needed.
+Each approach has its pros and cons, and the choice of using one type system over the other depends on the programming language's design philosophy and the requirements of the application being developed.
+
+************
+
+Python is both a strongly typed and a dynamically typed language.
+Strong typing means that variables do have a type and that the type matters when performing operations on a variable.
+Dynamic typing means that the type of the variable is determined only during runtime.
+
+
+"3" + 5 will raise a type error in strongly typed languages, such as Python and Go, because they don't allow for "type coercion": the ability for a value to change type implicitly in certain contexts (e.g. merging two types using +). Weakly typed languages, such as JavaScript, won't throw a type error (result: '35').
+
+
+
+******************************************************************
+Static vs Dynamic Typing
+******************************************************************
+
+“When types are checked”
+
+Static: Types checked before run-time
+Dynamic: Types checked on the fly, during execution
+
+Static typing:
+- In static typing, the type is bound to the variable. Types are checked at compile time (before run-time).
+- That means that in a statically typed language, once the variable has been declared with a type, you can't change that type later; you can of course assign it new values, but they must be of the same types.
+
+dynamic typing:
+- On dynamic typing, the type is bound to the value. The checks are made at runtime (don't check types until execution).
+- As the type of the variable is bound to the values, it can change along with the type of the values assigned.
+
+
+The definitions of “Static & Compiled” and “Dynamic & Interpreted” are quite similar…but remember it’s “when types are checked” vs. “when source code is translated”.
+
+Type-checking has nothing to do with the language being compiled or interpreted! You need to separate these terms conceptually.
+
+Python Example
+Dynamic, Interpreted
+
+def foo(a):
+	if a > 0:        
+		print 'Hi'    
+	else:        
+		print "3" + 5
+
+foo(2)
+
+Because Python is both interpreted and dynamically typed, it only translates and type-checks code it’s executing on. The else block never executes, so "3" + 5 is never even looked at!
+
+What if it was statically typed?
+A type error would be thrown before the code is even run. It still performs type-checking before run-time even though it is interpreted.
+
+What if it was compiled?
+The else block would be translated/looked at before run-time, but because it's dynamically typed it wouldn't throw an error! Dynamically typed languages don't check types until execution, and that line never executes.
+
+
+******************************************************************
+******************************************************************
+
+
+Python Variables
+In programming, a variable is a container (storage area) to hold data. For example,
+
+number = 10
+
+**************
+
+Python Literals
+Literals are representations of fixed values in a program. They can be numbers, characters, or strings, etc. For example, 'Hello, World!', 12, 23.0, 'C', etc.
+
+Literals are often used to assign values to variables or constants. For example,
+
+site_name = 'programiz.com'
+In the above expression, site_name is a variable, and 'programiz.com' is a literal.
+
+**************
+
+Python Constants
+
+Here are a few example of user-defined Python constants:
+
+PI = 3.14
+MAX_SPEED = 300
+DEFAULT_COLOR = "\033[1;34m"
+WIDTH = 20
+API_TOKEN = "593086396372"
+BASE_URL = "https://api.example.com"
+DEFAULT_TIMEOUT = 5
+ALLOWED_BUILTINS = ("sum", "max", "min", "abs")
+INSTALLED_APPS = [
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    ...
+]
+
+Python doesn’t support constants or non-reassignable names. Using uppercase letters is just a convention, and it doesn’t prevent developers from assigning new values to your constant. So, any programmer working on your code needs to be careful and never write code that changes the values of constants. Remember this rule because you also need to follow it.
+
+
+******************************************************************
+Python Virtual Environment and Packages
+******************************************************************
+
+Pip
+
+The standard package manager for Python is pip. It allows you to install and manage packages that aren’t part of the Python standard library.
+That means it’s a tool that allows you to install and manage libraries and dependencies that aren’t distributed as part of the standard library.
+
+Here are some popular Python packages:
+
+NumPy: Numerical computing library for arrays and matrices.
+pandas: Data manipulation and analysis library, providing data structures like DataFrame.
+matplotlib: Plotting library to create charts and graphs.
+scikit-learn: Machine learning library with various algorithms for classification, regression, clustering, etc.
+TensorFlow and PyTorch: Popular deep learning frameworks.
+requests: Library for making HTTP requests.
+Flask and Django: Web frameworks for developing web applications.
+BeautifulSoup: HTML and XML parsing library to scrape web pages.
+SQLAlchemy: SQL toolkit and Object-Relational Mapper (ORM).
+pytest: Testing framework for writing and running unit tests.
+Pygame: Library for game development in Python.
+Pillow: Python Imaging Library for image processing tasks.
+seaborn: Data visualization library based on matplotlib, providing additional functionality.
+nltk: Natural Language Toolkit for natural language processing tasks.
+tweepy: Library for interacting with the Twitter API.
+
+*******
+
+Virtual environment:
+https://realpython.com/what-is-pip/
+
+
+To avoid installing packages directly into your system Python installation, you can use a virtual environment.
+A virtual environment provides an isolated Python interpreter for your project.
+Any packages that you use inside this environment will be independent of your system interpreter.
+This means that you can keep your project’s dependencies separate from other projects and the system at large.
+
+Using pip inside a virtual environment has three main advantages. You can:
+
+Be sure that you’re using the right Python version for the project at hand
+Be confident that you’re referring to the correct pip instance when running pip or pip3
+Use a specific package version for your project without affecting other projects
+
+C:\> python -m venv venv
+C:\> venv\Scripts\activate.bat
+(venv) C:\>  pip3 --version
+pip 21.2.3 from ...\lib\site-packages\pip (python 3.10)
+
+*************
+
+
+Pipenv:
+
+Pipenv is a higher-level packaging tool for Python that combines the functionality of pip and virtualenv.
+Pipenv solves some common problems associated with the typical workflow using pip, virtualenv, and the good old requirements.txt.
+
+It helps manage project dependencies and creates isolated Python environments for each project
+
+Pipenv provides a more convenient and structured way to manage dependencies and environments for Python projects.
+In addition to addressing some common issues, it consolidates and simplifies the development process to a single command line tool.
+
+It automatically generates and manages a Pipfile and Pipfile.lock to track project dependencies and their versions.
+
+
+Problems that Pipenv Solves:
+1) Dependency Management with requirements.txt
+
+***
+
+Pipenv Introduction:
+
+Now that we’ve addressed the problems, let’s see how Pipenv solves them.
+
+First, let’s install it:
+
+$ pip install pipenv
+
+Once you’ve done that, you can effectively forget about pip since Pipenv essentially acts as a replacement. It also introduces two new files, the Pipfile (which is meant to replace requirements.txt) and the Pipfile.lock (which enables deterministic builds).
+
+Pipenv uses pip and virtualenv under the hood but simplifies their usage with a single command line interface.
+
+
+******************************************************************
+******************************************************************
+

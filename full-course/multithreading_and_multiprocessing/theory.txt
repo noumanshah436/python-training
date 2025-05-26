@@ -1,0 +1,58 @@
+
+✅ What is a Process?
+A process is an instance of a running program. Each process has its own memory space, code, data, and system 
+resources. Each process can contain multiple threads. When you run a Python script, it runs in a process.
+
+✅ What is Multiprocessing?
+Multiprocessing is a Python module that allows you to create and run multiple processes in parallel. This is 
+especially useful for CPU-bound tasks that benefit from using multiple cores of your CPU.
+
+GIL = (global interpreter lock):
+allows only one thread to hold the control of the Python interpreter at any one time
+
+Python's Global Interpreter Lock (GIL) prevents multiple threads from executing Python bytecodes simultaneously. But 
+using multiprocessing bypasses the GIL by running each process in its own Python interpreter with its own memory 
+space, enabling true parallelism.
+
+
+****************************************
+
+# cpu bound = program/task spends most of it's time waiting for internal events (CPU intensive).
+#             use multiprocessing (in parallel) with cpu bound processes
+
+# io bound = program/task spends most of it's time waiting for external events (user input, web scraping)
+#            use multithreading(multiple threads running concurrently but not truly in parallel)
+
+****************************************
+
+✅ What is a Thread?
+A thread is the smallest unit of execution within a process.
+A process can have multiple threads, all running in the same memory space.
+Threads share the same memory and data of the parent process.
+Threads are often used to perform tasks concurrently (doing more than one thing at the same time).
+
+✅ What is Multithreading?
+Multithreading is a technique where multiple threads run within the same process, either simultaneously or in quick 
+succession (concurrently).
+
+🔸 Use Cases:
+    Ideal for I/O-bound tasks like:
+    File reading/writing
+    Network requests
+    Database access
+    Not efficient for CPU-bound tasks in Python due to the Global Interpreter Lock (GIL).
+
+✅ What is the Global Interpreter Lock (GIL)?
+The GIL is a mutex (lock) used in the CPython interpreter to prevent multiple native (within one process) threads from executing Python bytecodes at once.
+Prevents true parallel execution of threads for CPU-bound tasks.
+Only one thread can execute Python code at a time, even on multi-core machines.
+Workaround for CPU-bound tasks: use multiprocessing instead.
+
+****************************************
+
+
+🐍 Python is multi-threaded but not simultaneously multi-threaded, meaning two threads cannot execute simultaneously within the same process.
+🚧 Python's Global Interpreter Lock (GIL) ensures thread safety by allowing only one thread to execute at a time within a process.
+🔄 Multi-threading is suitable for I/O-bound tasks, where threads can perform other tasks while waiting for I/O operations.
+🚀 Multi-processing is effective for CPU-bound tasks, allowing processes to run simultaneously and utilize multiple CPU cores.
+📊 Choose multi-threading for I/O-bound tasks and multi-processing for CPU-bound tasks, considering the nature of your application.

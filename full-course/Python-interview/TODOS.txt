@@ -1,0 +1,4 @@
+
+
+
+how python remove all the used space of it's programs.
