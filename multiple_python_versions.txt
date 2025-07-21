@@ -19,6 +19,11 @@ Overall, pyenv is a powerful and user-friendly tool for Python developers who ne
 
 ********************************************************************************************
 
+https://github.com/pyenv/pyenv
+
+$ pyenv update
+********************************************************************************************
+
 Installation:
 
 first install prerequisite libraries:
