@@ -381,7 +381,8 @@ print(unique_list)
 
 ### How are arguments passed by value or by reference in Python?
 
-In Python, arguments are passed neither purely by value nor purely by reference. Instead, Python uses a mechanism often referred to as "pass-by-object-reference" or "pass-by-assignment."
+In Python, arguments are passed neither purely by value nor purely by reference. 
+Instead, Python uses a mechanism often referred to as "pass-by-object-reference" or "pass-by-assignment."
 
 Here's how it works:
 1. **Immutable Objects (e.g., integers, strings, tuples)**: When an immutable object is passed to a function, a copy of the reference to the object is passed. However, since the object is immutable, any modifications to the parameter within the function will not affect the original object.
