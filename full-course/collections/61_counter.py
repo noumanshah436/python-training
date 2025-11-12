@@ -59,3 +59,21 @@ try:
     Counter([{1, 2}, {1, 2}, {3, 4}])  # list of sets
 except TypeError as e:
     print("Set inside Counter ->", e)
+
+# ---------------------------------
+
+
+# A list of words
+words = ["apple", "banana", "apple", "orange", "banana", "apple"]
+
+# Create an empty Counter
+word_count = Counter()
+
+# Update it with the list
+word_count.update(words)
+
+# Print result
+print(word_count)
+
+
+# Counter({'apple': 3, 'banana': 2, 'orange': 1})
