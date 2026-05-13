@@ -1,0 +1,34 @@
+https://www.youtube.com/watch?v=xCCHTvcN7Vs
+
+docker run -d -p 6379:6379 redis
+
+pip install -U "celery[redis]"
+
+---
+
+cd "full-course/celery-practice"
+
+celery -A tasks worker -l INFO
+
+---
+
+add task by  running main.py:
+
+python main.py
+
+---
+
+integrate flower(ui to manage tasks):
+
+pip install flower
+
+usage: 
+celery -A tasks.app flower
+
+Enable -E to monitor tasks in this window
+
+celery -A tasks worker -l INFO -E
+
+access:
+
+http://0.0.0.0:5555/
